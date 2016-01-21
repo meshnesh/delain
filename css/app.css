@@ -33,13 +33,12 @@ body{
 
 #services{
     background-image: url(../assets/assets/s_image.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
     height: 55%;
-    width:100%;
     clear: both;
     text-align: center;
     color: white;
-    max-width: 1080px;
+    padding-top: 5%;
 }
 
 .column{
@@ -73,12 +72,12 @@ body{
     text-align: center;
 }
 
-#logo img{
-    border: 0px;
-    width: 100%;
-}
-  
+.logo img{
+    margin: 2%;
+    border-radius: 50%;
+    border: 0;
 
-footer{
+
+.logo {
     text-align: center;
 }
